@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>checkbox</title>
+	
+<body>
+	<center>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+		<form>
+			<label>Password:</label>
+			<input type="password" name="Password" id="password">
+			<input type="checkbox" onclick="get()">
+		</form>
+	</center>
+	<script type="text/javascript">
+		function get()
+		{
+			var y=document.getElementById('password');
+			if(y.type=="password")
+			{
+				y.type="text";
+			}
+			else
+			{
+				y.type="password";
+			}
+		}
+	</script>
+
+</body>
+</html>

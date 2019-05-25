@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slidedown</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".a").click(function(){
+			$(".b").slideDown();
+		});
+	});
+</script>
+<style>
+	.a,.b{
+		padding: 50px;
+		background-color: pink;
+		text-align: center;
+		border: solid 2px red;
+	}
+	.b{
+		padding: 100px;
+		display: none;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="a">click here</div>
+	<div class="b">hi manikanta</div>
+
+</body>
+</html>

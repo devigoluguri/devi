@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>add class</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".a").click(function(){
+        $("p").toggleClass("c");
+		});
+	});
+</script>
+<style>
+	.c{
+		font-size: 20px;
+		color: pink;
+	}
+</style>
+</head>
+<body>
+<h3>show something</h3>
+<p class="c">this is devi</p>
+<p class="c">sudha</p>
+<button class="a">click me</button>
+</body>
+</html>

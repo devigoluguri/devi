@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animate</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".a").hover(function(){
+			$(this).css("background-color","pink");
+		},function(){
+		   $(this).css("background-color","red");
+		});
+     });
+</script>
+</head>
+<body>
+	<p class="a">hover me</p>
+</body>
+
+</html>
